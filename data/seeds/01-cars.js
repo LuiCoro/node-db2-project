@@ -1,7 +1,7 @@
 
 const cars = [
   {
-    vin: '0000000000001',
+    vin: '00000000000000001',
     make: 'Lexus',
     model: 'RC300',
     mileage: 50000,
@@ -9,14 +9,14 @@ const cars = [
     transmission: 'manuel',
   },
   {
-    vin: '0000000000002',
+    vin: '00000000000000002',
     make: 'Toyota',
     model: 'Tacoma',
     mileage: 20000,
     title: 'clean',
   },
   {
-    vin: '0000000000003',
+    vin: '00000000000000003',
     make: 'Honda',
     model: 'Type R',
     mileage: 1000,
