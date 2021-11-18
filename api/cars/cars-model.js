@@ -9,11 +9,14 @@ const getById = (id) => {
 }
 
 const getByVin = (vin) => {
-  return db('cars').where('vin',vin).first()
+  return db('cars').where('vin', vin).first()
 }
 
-const create = () => {
-return db('cars').where('')
+const create = (car) => {
+  return db('cars').insert(car)
+      .then(([id]) => {
+        return getById(id)
+      })
 }
 
 
